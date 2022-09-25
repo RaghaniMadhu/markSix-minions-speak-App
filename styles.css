@@ -69,7 +69,6 @@ textarea{
 
 button {
     background-color: var(--primary-color);
-    /* border-radius: 0.5rem; */
     margin: 1rem 0rem;
     padding: 0.5rem 1rem;
     font-size: large;
@@ -101,4 +100,9 @@ button {
 .footer .footer-header{
     font-size: x-large;
     /* font-family: cursiveFont; */
+}
+
+.footer p{
+    margin: auto;
+    max-width: 600px;
 }
