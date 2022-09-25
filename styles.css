@@ -63,6 +63,11 @@ textarea{
     /* border-radius: 0.5rem; */
 }
 
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-family: 'Tillana', cursive;
+    color: var(--primary-color);   
+}
+
 button {
     background-color: var(--primary-color);
     /* border-radius: 0.5rem; */
