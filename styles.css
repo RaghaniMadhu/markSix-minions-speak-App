@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+@font-face {
+    font-family: cursiveFont;
+    src: url(/fonts/cursive.ttf);
+}
+
+:root{
+    --primary-color: #fbbf24;
+    --secondary-color: #fef3c7;
+    --white-color: #fff;
+    --black-color: #000;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px auto;
+}
+
+/* container */
+.container{
+    padding: 0rem 1rem;
+}
+
+.container-center{
+    text-align: center;
+    margin: 2rem;
+}
+
+.header{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 0.5rem 1rem;
+    border-bottom-left-radius: 0.5rem;
+    text-align: center;
+}
+
+.title{
+    font-size: x-large;
+    font-family: cursiveFont;
+}
+
+
+.section{
+    padding: 1rem;
+    margin: 1.5rem auto;
+    border-radius: 2rem;
+    border: 1px solid var(--black-color);
+    max-width: 25rem;
+}
+
+.section-alt{
+    background-color: var(--secondary-color);
+}
+
+textarea{
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid var(--black-color);
+    /* border-radius: 0.5rem; */
+}
+
+button {
+    background-color: var(--primary-color);
+    /* border-radius: 0.5rem; */
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+}
+
+#output{
+    border: 1px solid var(--black-color);
+    /* border-radius: 0.5rem; */
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    background-color: var(--white-color);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 1rem 0.5rem;
+    text-align: center;
+    color: var(--white-color);
+    border-top-right-radius: 1rem;
+}
+
+
+.footer .footer-header{
+    font-size: x-large;
+    font-family: cursiveFont;
+}
