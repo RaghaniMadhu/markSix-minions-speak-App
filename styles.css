@@ -65,7 +65,6 @@ textarea{
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     font-family: 'Tillana', cursive;
-    color: var(--primary-color);   
 }
 
 button {
